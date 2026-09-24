@@ -1,11 +1,8 @@
 # Abhiraj Singh Jaswal
 
-Computer Engineering at Purdue, graduating 2028. I work on hardware for AI —
+Computer Engineering at Purdue, graduating 2028. I work on hardware for AI 
 mostly RTL, verification, and the memory side of accelerator design.
 
-The problem I care about is data movement. Most of what limits AI hardware
-isn't arithmetic, it's getting operands to the ALUs, so nearly everything I
-build ends up being about reuse, dataflow, or keeping compute close to memory.
 
 ### What I'm working on
 
