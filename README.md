@@ -1,23 +1,26 @@
-# Hi, I'm Abhiraj Singh Jaswal 👋
+# Abhiraj Singh Jaswal
 
-I'm a technology enthusiast with a deep interest in the intersection of **Artificial Intelligence**, **Semiconductor Design**, and scientific innovation. My current focus is on exploring and mastering **Agentic AI** frameworks and their real-world applications.
+Computer Engineering at Purdue, graduating 2028. I work on hardware for AI —
+mostly RTL, verification, and the memory side of accelerator design.
 
----
-### Current Focus
+The problem I care about is data movement. Most of what limits AI hardware
+isn't arithmetic, it's getting operands to the ALUs, so nearly everything I
+build ends up being about reuse, dataflow, or keeping compute close to memory.
 
-- 🔭 I’m currently working on a project involving **autonomous AI agents for data analysis**.
-- 🌱 I’m actively learning about multi-agent systems and advanced model architectures.
-- 💞️ I’m open to collaborating on innovative projects, particularly those involving **Agentic AI**.
+### What I'm working on
 
----
-### My Interests
+- **CAISSA**: leading a 10-person team building an FPGA chess engine that runs
+  NNUE inference and move validation entirely in RTL — no CPU at runtime —
+  with Hall-effect board sensing and a CoreXY gantry.
+- **FlashArray**: a weight-stationary systolic array in SystemVerilog for
+  transformer attention. Verified against a NumPy golden model in Questa.
 
-- **AI/ML**: Agentic Workflows, LLMs, Computer Vision
-- **Hardware**: Semiconductor Physics, VLSI Design
-- **Science**: Quantum Mechanics and Computing
+### Tools
 
----
-### Connect with Me
+SystemVerilog · Questa · cocotb · Verilator · Vivado · Design Compiler ·
+Cadence Innovus · Python · C/C++
 
-- **LinkedIn**: [Abhiraj Singh Jaswal](https://www.linkedin.com/in/abhiraj-singh-jaswal-89b746287/)
-- **Email**: abhiraj.sjaswal6@gmail.com
+### Elsewhere
+
+[LinkedIn](https://www.linkedin.com/in/abhiraj-singh-jaswal/) ·
+abhiraj.sjaswal6@gmail.com
