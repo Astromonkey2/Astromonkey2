@@ -1,26 +1,21 @@
 # Abhiraj Singh Jaswal
 
-**Computer Engineering @ Purdue University · Class of 2028**  
-I build hardware for AI, with a focus on RTL design, verification, and accelerator memory systems.
+Computer Engineering at Purdue, graduating 2028. I work on RTL design and
+verification for AI accelerators, with a focus on memory-bound workloads.
 
-I enjoy taking ideas from architecture through implementation: defining the datapath, validating behavior against software models, and building systems that connect hardware to real applications.
+### Now
+- **CAISSA** (hardware architecture lead, 14-person team): FPGA chess engine
+  that runs NNUE inference and move validation in RTL with no CPU at runtime.
+  I own game-state RTL and top-level verification.
+- **SoCET Atalla x01** (Purdue VIP): verification of the fetch, branch
+  prediction, and scheduler logic for a VLIW tensor core.
 
-## Featured work
+### Projects
+- **FlashArray**: 8×8 weight-stationary systolic array in SystemVerilog with
+  overlapped weight loading. Verified against a NumPy golden model
+  (cocotb, Questa, Verilator).
 
-### [CAISSA — FPGA chess engine](https://github.com/Astromonkey2/Caissa) · [Live demo](https://caissa-five.vercel.app)
-Leading a 10-person team building a chess engine that runs NNUE inference and move validation entirely in RTL, with Hall-effect board sensing and a CoreXY gantry.
+### Tools
+SystemVerilog · cocotb · Questa · Verilator · Vivado · Design Compiler · Python · C
 
-### FlashArray — transformer systolic array
-A weight-stationary systolic array in SystemVerilog for transformer attention, verified against a NumPy golden model in Questa.
-
-### [Intern Pipeline](https://github.com/Astromonkey2/intern-pipeline-)
-A Python tool that checks hundreds of company job boards daily, matches new internships to a profile, and delivers a digest through GitHub Issues and notifications.
-
-## Tools I use
-
-**Hardware:** SystemVerilog · Questa · cocotb · Verilator · Vivado · Design Compiler · Cadence Innovus  
-**Software:** Python · C/C++ · NumPy
-
-## Get in touch
-
-[LinkedIn](https://www.linkedin.com/in/abhiraj-singh-jaswal/) · [Email](mailto:abhiraj.sjaswal6@gmail.com)
+[LinkedIn](https://www.linkedin.com/in/abhiraj-singh-jaswal/) · abhiraj.sjaswal6@gmail.com
